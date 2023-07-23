@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/CSS" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,500;1,300&family=Roboto:wght@300&family=Sarabun:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<div id="cabecario" >
+<h1>Cadastro: DEVs</h1>
+<p>Complete suas informações no formulário abaixo</p>
+</div>
+
+<form>
+
+<fieldset class="grupo">
+    <br>
+<div class="campo">
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" name="nome">
+</div>
+
+<div class="campo">
+    <label for="sobrenome"><strong>Sobrenome</label>
+    <input type="text" name="sobrenome" id="sobrenome" required>
+</div>
+
+<div class="campo">
+    <label for="idade">Idade</label>
+    <input id="idade" type="number" max="100" min="0" >
+
+</div>
+
+</fieldset>
+
+<div>
+    <br>
+    <label for="email">E-mail</label>
+    <input id="email" type="email" name="email">
+</div>
+
+   <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+
+   <div class="campo conteiner">
+    <br>
+<label>Qual área você desenvolve</label><br>
+
+<label>
+    <input type="radio" name="devweb" value="frontend">Front-end
+</label>
+<label>
+ <input type="radio" name="devweb" value="backend">Back-end
+</label>
+<label>
+    <input type="radio" name="devweb" value="fullstack">Fullstack
+</label>
+
+</div>
+<br>
+   <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+   <div class="campo">
+    <label for="senioridade"><strong>Senioridade</label>
+    <select id="senioridade" required>
+      <option selected disabled value="">Selecione</option>
+      <option>Júnior</option>
+      <option>Pleno</option>
+      <option>Sênior</option>
+    </select>
+</div>
+
+
+<fieldset class="grupo">
+    <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+    <br>
+    <div id="check">
+        <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+        <label for="tecnologia1"> HTML</label>
+        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+        <label for="tecnologia2"> CSS</label>
+        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+        <label for="tecnologia3"> JavaScript</label>
+        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+        <label for="tecnologia4"> PHP</label>
+        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+        <label for="tecnologia5"> C#</label>
+        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+        <label for="tecnologia6"> Python</label>
+        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+        <label for="tecnologia7"> Java</label>
+    </div>
+</fieldset>
+
+       <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label><br>
+                <textarea rows="5" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+<div>
+<button type="submit" class="botao">Concluído</button>
+
+</div>
+
+
+</form>
+</body>
+</html>
