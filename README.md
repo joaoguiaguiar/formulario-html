@@ -1,22 +1,27 @@
-#Sobre o Projeto
+# Formulário HTML
 
-Neste projeto, explorei a criação de um formulário completo utilizando apenas HTML. O objetivo foi trabalhar com diferentes tipos de campos de entrada (inputs), como texto, e-mail, senha e outros, para entender seu funcionamento e aplicação em formulários.
+Um projeto simples de formulário desenvolvido apenas com HTML e estilizado com CSS básico, explorando diferentes tipos de inputs e elementos de estruturação.
 
-Além disso, pratiquei a estruturação do formulário utilizando tags como:
+## 📋 Sobre o Projeto
 
-<form>
+Neste projeto, pratiquei a criação de um formulário completo utilizando **HTML**, focando em:
+- Tipos de `input` (texto, e-mail, senha, etc.).
+- Tags semânticas como `<form>`, `<label>`, `<fieldset>` e `<legend>`.
+- Organização e acessibilidade de formulários.
 
-<label>
+## 🛠 Tecnologias Utilizadas
+- **HTML5**
+- **CSS3** (para estilização mínima)
 
-<input>
+## 🔗 Acesso ao Projeto
+Você pode visualizar o projeto online aqui:  
+👉 [Formulário no Vercel](https://formulario-sigma-six.vercel.app/)
 
-<fieldset>
+---
 
-Isso me ajudou a aprimorar minha compreensão sobre a organização e a semântica de formulários em HTML.
+### 📌 Estrutura do Código
+O formulário inclui:
+- Campos obrigatórios (`required`).
+- Placeholders e labels associados corretamente.
+- Agrupamento lógico com `<fieldset>`.
 
-Tecnologias Utilizadas
-HTML
-
-CSS (para estilização básica)
-
-🔗 Link do projeto: https://formulario-sigma-six.vercel.app/
