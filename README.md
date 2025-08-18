@@ -24,4 +24,3 @@ O formulário inclui:
 - Campos obrigatórios (`required`).
 - Placeholders e labels associados corretamente.
 - Agrupamento lógico com `<fieldset>`.
-
