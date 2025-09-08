@@ -18,7 +18,6 @@ Você pode visualizar o projeto online aqui:
 👉 [Formulário no Vercel](https://formulario-sigma-six.vercel.app/)
 
 ---
-
 ### 📌 Estrutura do Código
 O formulário inclui:
 - Campos obrigatórios (`required`).
